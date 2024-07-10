@@ -1,7 +1,7 @@
 # React-Rendering
 
 |To render in React we must know||
-|:---|:----:|
+|:---:|:----|
 |1.|What content to render|
 |2.|Where to place the content|
 
