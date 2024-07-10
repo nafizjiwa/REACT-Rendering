@@ -5,6 +5,7 @@
 |1.|What content to render| The `WHAT`|
 |2.|Where to place the content| The 'WHERE`|
 
+Wwe saw how we can create a React root using createRoot() and use its render() method to render JSX.
 
     const container = document.getElementById('app');
 
