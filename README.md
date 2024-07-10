@@ -7,15 +7,13 @@
 
 
     const container = document.getElementById('app');
-This line:
 
-Uses the document object which represents our web page.
-Uses the getElementById() method of document to get the Element object representing the HTML element with the passed in id (app).
-Stores the element in container.
+##### Here use the document object (gets the web page) and the document method (.getElementById) to get the element with id 'app' and store it in the variable container.
 
     const root = createRoot(container);
-we use createRoot() from the react-dom/client library, which creates a React root from container and stores it in root. root can be used to render a JSX expression. This is the “where to place the content” part of React rendering.
+
+##### Create a React root from container and store it in root so we can render the JSX expression.  ` The 'WHERE' part of React rendering. `
 
     root.render(<h1>Hello world</h1>);
     
-uses the render() method of root to render the content passed in as an argument. Here we pass an <h1> element, which displays Hello world. This is the “what content to render” part of React rendering.
+##### Use the .render() method of root to render the content passed in as an argument. ` The 'WHAT' part of React rendering. `
