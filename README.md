@@ -24,7 +24,7 @@
 |root.render(WHAT, WHERE);| ||
 |`const hello = <h1>Hello world</h1>;`| WHAT ||
 |document.getElementById('app')| |WHERE |
-|root.render(hello, document.getElementById('app'));| WHAT | WHERE|
+|root.render(hello, document.getElementById('app'));| before comma `WHAT` | after comma `WHERE`|
 
 
 
