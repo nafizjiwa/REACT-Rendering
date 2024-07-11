@@ -22,7 +22,7 @@
 ||'WHAT TO RENDER'|'WHERE TO RENDER'|
 |:---:|:----:|:----:|
 |root.render(WHAT, WHERE);| ||
-|const hello = <h1>Hello world</h1>;| WHAT ||
+|`const hello = <h1>Hello world</h1>;`| WHAT ||
 |document.getElementById('app')| |WHERE |
 |root.render(hello, document.getElementById('app'));| WHAT | WHERE|
 
