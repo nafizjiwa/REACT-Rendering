@@ -1,11 +1,16 @@
 # React-Rendering
 
+### REACT is Front-end framework.
+### JSX is a syntax extension for JavaScript to treat HTML as expressions
+### Expressions are stored in variables, objects, arrays,
+
 |To render in React we must know|||
 |:---:|:----|:----:|
 |1.|What content to render| The `WHAT`|
 |2.|Where to place the content| The 'WHERE`|
 
-#### We can create a React root using createRoot() and it's render() method to render JSX.
+#### We can create a React root using createRoot() and it's render() method to render JSX at the specified DOM element.
+#### A React root’s render() method only updates DOM elements that have changed using the virtual DOM.
 
     const container = document.getElementById('app');
 
@@ -25,8 +30,6 @@
 |`const hello = <h1>Hello world</h1>;`| WHAT ||
 |document.getElementById('app')| |WHERE |
 |root.render(hello, document.getElementById('app'));| before comma `WHAT` | after comma `WHERE`|
-
-
 
 
 ### Render()’s argument can be a JSX expression and a variable but they must evaluate to a JSX expression.
