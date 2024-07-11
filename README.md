@@ -4,6 +4,7 @@
 ### JSX is a syntax extension for JavaScript to treat HTML as expressions
 ### Expressions are stored in variables, objects, arrays,
 <br>
+<br>
 
 |To render in React we must know|||
 |:---:|:----|:----:|
