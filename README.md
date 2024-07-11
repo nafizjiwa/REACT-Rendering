@@ -5,7 +5,7 @@
 |1.|What content to render| The `WHAT`|
 |2.|Where to place the content| The 'WHERE`|
 
-Wwe saw how we can create a React root using createRoot() and use its render() method to render JSX.
+#### We can create a React root using createRoot() and it's render() method to render JSX.
 
     const container = document.getElementById('app');
 
@@ -18,3 +18,14 @@ Wwe saw how we can create a React root using createRoot() and use its render() m
     root.render(<h1>Hello world</h1>);
     
 #### Use the .render() method of root to render the content passed in as an argument. ` The 'WHAT' part of React rendering. `
+
+||'WHAT TO RENDER'|'WHERE TO RENDER'|
+|:---:|:----:|:----:|
+|root.render(hello, document.getElementById('app'));| WHAT | WHERE|
+
+
+
+### Render()’s argument can be a JSX expression and a variable but they must evaluate to a JSX expression.
+
+        render.root('VARIABLE');    ------------------------->     root.render(<h1>Hello world</h1>);
+        render.root('JSX Expression');   ----------------->        root.render(<h1>Hello world</h1>);
