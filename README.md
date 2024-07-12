@@ -2,6 +2,7 @@
 
 ### REACT is Front-end framework.
 ### JSX is a syntax extension for JavaScript to treat HTML as expressions
+### JSX gets translated into JavaScript
 ### Expressions are stored in variables, objects, arrays,
 <br>
 <br>
@@ -34,7 +35,7 @@
 |root.render(hello, document.getElementById('app'));| before comma `WHAT` | after comma `WHERE`|
 
 
-### Render()’s argument can be a JSX expression and a variable but they must evaluate to a JSX expression.
+### Render('argument') can be a JSX expression or a variable but they must evaluate to a JSX expression.
 
         render.root('VARIABLE');    ------------------------->     root.render(<h1>Hello world</h1>);
         render.root('JSX Expression');   ----------------->        root.render(<h1>Hello world</h1>);
