@@ -39,3 +39,10 @@
 
         render.root('VARIABLE');    ------------------------->     root.render(<h1>Hello world</h1>);
         render.root('JSX Expression');   ----------------->        root.render(<h1>Hello world</h1>);
+
+#### SELF CLOSING TAGS in JSX
+
+// Fine, without the slash:
+`<br>`
+// Also fine in HTML WITH a slash but REQUIRED in JSX:
+`<br />`
