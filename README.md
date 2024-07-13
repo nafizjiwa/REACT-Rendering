@@ -79,3 +79,5 @@ That means that you can access variables while inside of a JSX expression, even 
         width={sideLength} />
     );
 
+##### if and else statements are not injected in between JSX tags. JSX should be within the clauses if{ THIS JSX } else{ THIS JSX INSTEAD}.
+
