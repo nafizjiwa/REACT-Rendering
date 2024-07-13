@@ -86,7 +86,7 @@ That means that you can access variables while inside of a JSX expression, even 
 | }|
 <br>
 
-| // SEMICOLONS (;) ARE NOT REQUIRED AFTER THE JSX EXPRESSION AS IS THE CASE IN JAVASCRIPT IF ELSE STATMENTS|
+|SEMICOLONS (;) ARE NOT REQUIRED AFTER THE JSX EXPRESSION AS IS THE CASE IN JAVASCRIPT IF ELSE STATMENTS|
 |:--:|
 | if {result = 'positive';   <----  }|
 | else { result = 'NOT positive';   <---- }|
