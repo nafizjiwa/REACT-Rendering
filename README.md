@@ -42,15 +42,15 @@
 
 #### SELF CLOSING TAGS in JSX
 
-// Fine, without the slash:
-`<br>`
-// Also fine in HTML WITH a slash but REQUIRED in JSX:
-`<br />`
+// Fine, without the slash: <br>
+`<br>` <br>
+// Also fine in HTML WITH a slash but REQUIRED in JSX: <br>
+`<br />` <br>
 
-Any code in between the tags of a JSX element will be read as JSX, not as regular JavaScript! JSX doesn’t add numbers—it reads them as text, just like HTML.
+Any code in between the tags of a JSX element will be read as JSX, not as regular JavaScript! JSX doesn’t add numbers—it reads them as text, just like HTML. <br>
 
-You need a way to write code that says, “Even though I am located in between JSX tags, treat me like ordinary JavaScript and not like JSX.”
+You need a way to write code that says, “Even though I am located in between JSX tags, treat me like ordinary JavaScript and not like JSX.” <br>
 
-You can do this by wrapping your code in curly braces.
+You can do this by wrapping your code in curly braces. <br>
 
 <br>
