@@ -80,6 +80,7 @@ That means that you can access variables while inside of a JSX expression, even 
     );
 
 |##### if and else statements are not injected in between JSX tags. JSX should be within the clauses|
+|:--:|
 |if{ THIS CONDITIONAL JSX XPRESSION  <----|
 | } else{ |
 | THIS CONDITIONAL JSX INSTEAD   <----|
