@@ -69,6 +69,8 @@ That means that you can access variables while inside of a JSX expression, even 
 
     const sideLength = "200px";
 ##### It’s common to use variables to set attributes
+
+    const sideLength = "200px";
     const panda = (
       <img 
         src="images/panda.jpg" 
