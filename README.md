@@ -79,12 +79,12 @@ That means that you can access variables while inside of a JSX expression, even 
         width={sideLength} />
     );
 
-##### if and else statements are not injected in between JSX tags. JSX should be within the clauses 
-
-    if{ THIS CONDITIONAL JSX XPRESSION  <----
-    } else{ 
-    THIS CONDITIONAL JSX INSTEAD   <----
-    }.
+|##### if and else statements are not injected in between JSX tags. JSX should be within the clauses|
+|if{ THIS CONDITIONAL JSX XPRESSION  <----|
+| } else{ |
+| THIS CONDITIONAL JSX INSTEAD   <----|
+| }|
+<br>
 
 | // SEMICOLONS (;) ARE NOT REQUIRED AFTER THE JSX EXPRESSION AS IS THE CASE IN JAVASCRIPT IF ELSE STATMENTS|
 |:--:|
