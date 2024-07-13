@@ -56,11 +56,13 @@ You can do this by wrapping your code in curly braces. <br>
         root.render(<h1>2 + 3</h1>)     ---------> PRINTS 2 + 3
         root.render(<h1>{2 + 3}</h1>)     ---------> PRINTS 5
 <br>
-The curly braces themselves won’t be treated as JSX or as JavaScript. <br> 
-They are markers that signal the beginning and end of a JavaScript injection into JSX, similar to the quotation marks that signal the boundaries of a string.<br>
 
+##### The curly braces are not JSX or JavaScript. <br> 
+##### They are markers that signal the beginning and end of a JavaScript injection into JSX.<br>
 
-That means that you can access variables while inside of a JSX expression, even if those variables were declared outside <br>
+### Variables in JSX expessions
+----
+Variables can be accessed while inside of a JSX expression, even if those variables were declared outside the expression.<br>
 
         const variableName = "Print me to the screen";
         root.render(<h1>{variableName}</h1>); --->  PRINTS 'Prints me to the screen";
