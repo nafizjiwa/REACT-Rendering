@@ -40,13 +40,14 @@
             render.root('VARIABLE'); ------------------------->     root.render(<h1>Hello world</h1>);
             render.root('JSX Expression'); ----------------->        root.render(<h1>Hello world</h1>);
 
-#### SELF CLOSING TAGS in JSX
-
+### SELF CLOSING TAGS in JSX
+----
 // Fine, without the slash: <br>
 `<br>` <br>
 // Also fine in HTML WITH a slash but REQUIRED in JSX: <br>
 `<br />` <br>
-
+### Javascript within JSX expressions
+----
 Any code in between the tags of a JSX element will be read as JSX, not as regular JavaScript! JSX doesn’t add numbers—it reads them as text, just like HTML. <br>
 
 You need a way to write code that says, “Even though I am located in between JSX tags, treat me like ordinary JavaScript and not like JSX.” <br>
