@@ -37,8 +37,8 @@
 
 ### Render('argument') can be a JSX expression or a variable but they must evaluate to a JSX expression.
 
-        render.root('VARIABLE');    ------------------------->     root.render(<h1>Hello world</h1>);
-        render.root('JSX Expression');   ----------------->        root.render(<h1>Hello world</h1>);
+            render.root('VARIABLE'); ------------------------->     root.render(<h1>Hello world</h1>);
+            render.root('JSX Expression'); ----------------->        root.render(<h1>Hello world</h1>);
 
 #### SELF CLOSING TAGS in JSX
 
