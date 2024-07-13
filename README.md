@@ -85,7 +85,10 @@ That means that you can access variables while inside of a JSX expression, even 
     } else{ 
     THIS CONDITIONAL JSX INSTEAD   <----
     }.
-    // SEMICOLONS (;) ARE NOT REQUIRED AFTER THE JSX EXPRESSION AS IS THE CASE IN JAVASCRIPT IF ELSE STATMENTS
+
+    | // SEMICOLONS (;) ARE NOT REQUIRED AFTER THE JSX EXPRESSION AS IS THE CASE IN JAVASCRIPT IF ELSE STATMENTS|
+    |:--:|
+   
     if (a > 0) {
         result = 'positive';   <----
       } else {
