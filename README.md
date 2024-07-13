@@ -65,3 +65,15 @@ That means that you can access variables while inside of a JSX expression, even 
         const variableName = "Print me to the screen";
         root.render(<h1>{variableName}</h1>); --->  PRINTS 'Prints me to the screen";
 
+    / Use a variable to set the `height` and `width` attributes:
+
+    const sideLength = "200px";
+##### It’s common to use variables to set attributes
+    const panda = (
+      <img 
+        src="images/panda.jpg" 
+        alt="panda" 
+        height={sideLength} 
+        width={sideLength} />
+    );
+
