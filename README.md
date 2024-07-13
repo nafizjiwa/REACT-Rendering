@@ -52,5 +52,8 @@ Any code in between the tags of a JSX element will be read as JSX, not as regula
 You need a way to write code that says, “Even though I am located in between JSX tags, treat me like ordinary JavaScript and not like JSX.” <br>
 
 You can do this by wrapping your code in curly braces. <br>
-
+root.render(<h1>2 + 3</h1>) ---------> PRINTS 2 + 3
+root.render(<h1>{2 + 3}</h1>) ---------> PRINTS 5
 <br>
+The curly braces themselves won’t be treated as JSX or as JavaScript. <br> 
+They are markers that signal the beginning and end of a JavaScript injection into JSX, similar to the quotation marks that signal the boundaries of a string.<br>
