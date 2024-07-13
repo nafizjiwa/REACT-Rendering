@@ -55,8 +55,6 @@ You can do this by wrapping your code in curly braces. <br>
 
         root.render(<h1>2 + 3</h1>)     ---------> PRINTS 2 + 3
         root.render(<h1>{2 + 3}</h1>)     ---------> PRINTS 5
-<br>
-
 ##### The curly braces are not JSX or JavaScript. <br> 
 ##### They are markers that signal the beginning and end of a JavaScript injection into JSX.<br>
 
