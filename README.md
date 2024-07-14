@@ -118,3 +118,24 @@ If the left side of && evaluates to true then the right side will render.
         { age > 20 && <li>Oysters</li> }
         { age > 25 && <li>Grappa</li> }
       </ul>
+
+### .map() in JSX
+----
+
+    const strings = ['Home', 'Shop', 'About Me'];
+    const listItems = strings.map(string => <li>{string}</li>);
+    <ul>{listItems}</ul>
+
+### kEYS in JSX
+----
+Helps create LISTS and track them with index.
+    Const peopleList = people.map((person, i) => (
+      // expression goes here:
+      <li key={'person_'+ i}>{person}</li>
+    ));
+
+    // root.render goes here:
+    root.render(<ul>{peopleList}</ul>);
+
+
+
