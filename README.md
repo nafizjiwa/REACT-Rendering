@@ -128,17 +128,17 @@ If the left side of && evaluates to true then the right side will render.
 
 ### KEYS in JSX
 ----
-Helps create LISTS and track them with index.
+Keys helps create LISTS and track them with an index #.
 
-    Const peopleList = people.map((person, i) => (
-      // expression goes here:
+    const peopleList = people.map((person, i) => (
+      // expression:
       <li key={'person_'+ i}>{person}</li>
-    ));
+        ));
 
-    // root.render goes here:
+    // root.render:
     root.render(<ul>{peopleList}</ul>);
 
-### KEYS in JSX
+### A CALL TO `React.createElement()`
 ----
 When a JSX element is compiled, the compiler transforms the JSX element into the method: React.createElement().
 
