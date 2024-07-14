@@ -106,3 +106,15 @@ Variables can be accessed while inside of a JSX expression, even if those variab
     );
 
 ##### If age >= drinkingAge is TRUTHY headline = `<h1>'Buy Drink'</h1>` or if FALSY truthy headline = `<h1>'Do Teen Stuff'</h1>`
+
+### &&
+----
+&& works best for conditionals that sometimes do an action and other times do nothing.
+If the left side of && evaluates to true then the right side will render.
+
+    <li>Applesauce</li>
+        { !baby && <li>Pizza</li> }
+        { age > 15 && <li>Brussels Sprouts</li> }
+        { age > 20 && <li>Oysters</li> }
+        { age > 25 && <li>Grappa</li> }
+      </ul>
