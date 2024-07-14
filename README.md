@@ -1,9 +1,11 @@
 # React-Rendering
 
-### REACT is Front-end framework.
-### JSX is a syntax extension for JavaScript to treat HTML as expressions
-### JSX gets translated into JavaScript
-### Expressions are stored in variables, objects, arrays,
+#### REACT is Front-end framework.
+#### JSX is a syntax extension for JavaScript so HTML is treated as expressions
+#### JSX gets translated into JavaScript
+#### Expressions are stored in variables, objects, arrays.
+#### JSX produces React “elements”. 
+#### JSX produces React “elements”. 
 <br>
 <br>
 
@@ -37,8 +39,8 @@
 
 ### Render('argument') can be a JSX expression or a variable but they must evaluate to a JSX expression.
 
-            render.root('VARIABLE'); ------------------------->     root.render(<h1>Hello world</h1>);
-            render.root('JSX Expression'); ----------------->        root.render(<h1>Hello world</h1>);
+            root.render('VARIABLE'); ------------------------->     root.render(<h1>Hello world</h1>);
+            root.render('JSX Expression'); ----------------->        root.render(<h1>Hello world</h1>);
 
 ### SELF CLOSING TAGS in JSX
 ----
@@ -46,32 +48,28 @@
 `<br>` <br>
 // Also fine in HTML WITH a slash but REQUIRED in JSX: <br>
 `<br />` <br>
+
 ### Javascript within JSX expressions
 ----
-Code in between the tags of a JSX element `<h2>code here</h1>` will be read as JSX, not as regular JavaScript! JSX doesn’t add numbers—it reads them as text, just like HTML. <br>
+Code in between the tags of a JSX element/tags `<h2>code here</h1>` will be read as JSX, not as regular JavaScript! READ AS TEXT just like HTML. <br>
 
-You need a way to write code that says, “Even though I am located in between JSX tags, treat me like ordinary JavaScript and not like JSX.” <br>
-
-You can do this by wrapping your code in curly braces. <br>
+To treat code between JSX tags as JavaScript. WRAP THE CODE IN `{ }` BRACES<br>
 
         root.render(<h1>2 + 3</h1>)     ---------> PRINTS 2 + 3
         root.render(<h1>{2 + 3}</h1>)     ---------> PRINTS 5
-##### The curly braces are not JSX or JavaScript. 
-##### They are markers that signal the beginning and end of a JavaScript injection into JSX.
+        
+##### The curly braces are markers that signal the beginning and end of a JAVASCRIPT INJECTION into JSX.
 
 ### Variables in JSX expessions
 ----
-Variables can be accessed while inside of a JSX expression, even if those variables were declared outside the expression.<br>
+Use variables in JSX expressions with curly braces `{ }`, even if those variables were declared outside the expression.<br>
 
         const variableName = "Print me to the screen";
         root.render(<h1>{variableName}</h1>); --->  PRINTS 'Prints me to the screen";
-
-    // Use a variable to set the `height` and `width` attributes:
-
-    const sideLength = "200px";
     
 ##### It’s common to use variables to set attributes
 
+      // Use a variable to set the `height` and `width` attributes:
     const sideLength = "200px";
     const panda = (
       <img 
@@ -92,9 +90,7 @@ To create an event listener ADD an attribute onClick, mouseOver... Here we add o
 || }|
 
 
-
-
-    
+   
 ## WRITE JSX CONDITIONALS
 ### if and else statements
 ----
@@ -110,7 +106,6 @@ To create an event listener ADD an attribute onClick, mouseOver... Here we add o
 |SEMICOLONS (;) ARE NOT REQUIRED AFTER THE JSX EXPRESSION AS IS THE CASE IN JAVASCRIPT IF ELSE STATMENTS|
 |:--:|
 | if {result = 'positive';   <----  }|
-| else { result = 'NOT positive';   <---- }|
 
 ### The Ternary Operator
 ----
@@ -120,18 +115,15 @@ To create an event listener ADD an attribute onClick, mouseOver... Here we add o
       </h1>
     );
 
-##### If age >= drinkingAge is TRUTHY headline = `<h1>'Buy Drink'</h1>` or if FALSY truthy headline = `<h1>'Do Teen Stuff'</h1>`
+##### If age >= drinkingAge is TRUTHY then headline = `<h1>'Buy Drink'</h1>` or if FALSY then headline = `<h1>'Do Teen Stuff'</h1>`
 
 ### &&
 ----
-&& works best for conditionals that sometimes do an action and other times do nothing.
-If the left side of && evaluates to true then the right side will render.
+&& works best for conditionals If the left side of && evaluates to true then the right side will render.
 
-    <li>Applesauce</li>
+      <ul>
         { !baby && <li>Pizza</li> }
         { age > 15 && <li>Brussels Sprouts</li> }
-        { age > 20 && <li>Oysters</li> }
-        { age > 25 && <li>Grappa</li> }
       </ul>
 
 ### .map() in JSX
