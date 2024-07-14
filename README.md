@@ -85,11 +85,11 @@ Variables can be accessed while inside of a JSX expression, even if those variab
 
 To create an event listener ADD an attribute onClick, mouseOver... Here we add onClick:
 
-|Event Listener: attribute={attributes Value}|    |Attribute’s value should be a FUNCTION|
-|:--:|                                            |:----|
-|`<img onClick={clickAlert} />`|                    |function clickAlert() {|
-                                                    | alert('You clicked this image!');|
-                                                    | }|
+|Event Listener: attribute={attributes Value}|Attribute’s value should be a FUNCTION|
+|:--:|:----|
+|`<img onClick={clickAlert} />`|function clickAlert() {|
+|| alert('You clicked this image!');|
+|| }|
 
 
 
