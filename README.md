@@ -80,6 +80,19 @@ Variables can be accessed while inside of a JSX expression, even if those variab
         height={sideLength} 
         width={sideLength} />
     );
+### EVENT LISTENERS IN JSX
+To create an event listener ADD an attribute onClick, mouseOver... Here we add onClick:
+
+    |//Event Listener: attribute={attributes Value}|
+    |:--:|
+    |`<img onClick={clickAlert} />`|
+    
+An event listener attribute’s value should be a function.
+
+    function clickAlert() {
+      alert('You clicked this image!');
+    }
+    
 ## WRITE JSX CONDITIONALS
 ### if and else statements
 ----
