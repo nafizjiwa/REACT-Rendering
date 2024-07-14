@@ -126,9 +126,10 @@ If the left side of && evaluates to true then the right side will render.
     const listItems = strings.map(string => <li>{string}</li>);
     <ul>{listItems}</ul>
 
-### kEYS in JSX
+### KEYS in JSX
 ----
 Helps create LISTS and track them with index.
+
     Const peopleList = people.map((person, i) => (
       // expression goes here:
       <li key={'person_'+ i}>{person}</li>
