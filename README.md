@@ -121,9 +121,9 @@ If the left side of && evaluates to true then the right side will render.
 
 ### .map() in JSX
 ----
-|.map() in JSX|
+|Using .map() in JSX expression|
 |:---:|
-|const strings = ['Home', 'Shop', 'About Me'];||
+|const strings `= ['Home', 'Shop', 'About Me'];`|
 |const listItems = strings.map(string => <li>{string}</li>);|
 |<ul>{listItems}</ul>|  
     
