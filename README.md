@@ -81,6 +81,7 @@ Variables can be accessed while inside of a JSX expression, even if those variab
         width={sideLength} />
     );
 ### EVENT LISTENERS IN JSX
+
 To create an event listener ADD an attribute onClick, mouseOver... Here we add onClick:
 
 |Event Listener: attribute={attributes Value}|
