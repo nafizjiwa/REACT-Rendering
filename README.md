@@ -138,5 +138,17 @@ Helps create LISTS and track them with index.
     // root.render goes here:
     root.render(<ul>{peopleList}</ul>);
 
+### KEYS in JSX
+----
+When a JSX element is compiled, the compiler transforms the JSX element into the method: React.createElement().
+
+    const greatestDivEver = <div>i am div</div>;
+    //SAME AS 
+    const greatestDivEver = React.createElement(
+      "div",
+      null,
+      "i am div"
+    );
+
 
 
