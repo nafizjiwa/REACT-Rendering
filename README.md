@@ -121,10 +121,10 @@ If the left side of && evaluates to true then the right side will render.
 
 ### .map() in JSX
 ----
-|Using .map() in JSX expression|
+|Using .map() in JSX expression to create a list in an Array|
 |:---:|
-|const strings `= ['Home', 'Shop', 'About Me'];`|
-|const listItems = strings.map(string => <li>{string}</li>);|
+|const strings = ['Home', 'Shop', 'About Me'];|
+|const listItems = `strings.map(string => <li>{string}</li>);`|
 |<ul>{listItems}</ul>|  
     
 
