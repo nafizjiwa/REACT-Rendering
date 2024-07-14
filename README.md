@@ -80,7 +80,7 @@ Variables can be accessed while inside of a JSX expression, even if those variab
         height={sideLength} 
         width={sideLength} />
     );
-## CONDITIONALS
+## JSX CONDITIONALS
 ### if and else statements
 ----
 
@@ -96,3 +96,13 @@ Variables can be accessed while inside of a JSX expression, even if those variab
 |:--:|
 | if {result = 'positive';   <----  }|
 | else { result = 'NOT positive';   <---- }|
+
+### The Ternary Operator
+----
+    const headline = (
+      <h1>
+        { age >= drinkingAge ? 'Buy Drink' : 'Do Teen Stuff' }
+      </h1>
+    );
+
+##### If age >= drinkingAge if truthy headline = <h1>'Buy Drink'</h1>    falsy truthy headline = <h1>'Do Teen Stuff'</h1>
