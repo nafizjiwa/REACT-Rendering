@@ -122,9 +122,11 @@ If the left side of && evaluates to true then the right side will render.
 ### .map() in JSX
 ----
 
-    const strings = ['Home', 'Shop', 'About Me'];
-    const listItems = strings.map(string => <li>{string}</li>);
-    <ul>{listItems}</ul>
+|:---:|
+|const strings = ['Home', 'Shop', 'About Me'];||
+|const listItems = strings.map(string => <li>{string}</li>);|
+|<ul>{listItems}</ul>|  
+    
 
 ### KEYS in JSX
 ----
