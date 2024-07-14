@@ -125,7 +125,7 @@ If the left side of && evaluates to true then the right side will render.
 |:---:|
 |const strings = ['Home', 'Shop', 'About Me'];|
 |const listItems = `strings.map(string => <li>{string}</li>);`|
-|<ul>{listItems}</ul>|  
+|`<ul>{listItems}</ul>`|  
     
 
 ### KEYS in JSX
