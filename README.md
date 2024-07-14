@@ -48,7 +48,7 @@
 `<br />` <br>
 ### Javascript within JSX expressions
 ----
-Code in between the tags of a JSX element <h2>code here</h1> will be read as JSX, not as regular JavaScript! JSX doesn’t add numbers—it reads them as text, just like HTML. <br>
+Code in between the tags of a JSX element `<h2>code here</h1>` will be read as JSX, not as regular JavaScript! JSX doesn’t add numbers—it reads them as text, just like HTML. <br>
 
 You need a way to write code that says, “Even though I am located in between JSX tags, treat me like ordinary JavaScript and not like JSX.” <br>
 
@@ -56,8 +56,8 @@ You can do this by wrapping your code in curly braces. <br>
 
         root.render(<h1>2 + 3</h1>)     ---------> PRINTS 2 + 3
         root.render(<h1>{2 + 3}</h1>)     ---------> PRINTS 5
-##### The curly braces are not JSX or JavaScript. <br> 
-##### They are markers that signal the beginning and end of a JavaScript injection into JSX.<br>
+##### The curly braces are not JSX or JavaScript. 
+##### They are markers that signal the beginning and end of a JavaScript injection into JSX.
 
 ### Variables in JSX expessions
 ----
@@ -66,9 +66,10 @@ Variables can be accessed while inside of a JSX expression, even if those variab
         const variableName = "Print me to the screen";
         root.render(<h1>{variableName}</h1>); --->  PRINTS 'Prints me to the screen";
 
-    / Use a variable to set the `height` and `width` attributes:
+    // Use a variable to set the `height` and `width` attributes:
 
     const sideLength = "200px";
+    
 ##### It’s common to use variables to set attributes
 
     const sideLength = "200px";
