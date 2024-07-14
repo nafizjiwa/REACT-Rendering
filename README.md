@@ -62,7 +62,7 @@ To treat code between JSX tags as JavaScript. WRAP THE CODE IN `{ }` BRACES<br>
 
 |In JSX ||
 |:---:|:---:|
-|{ }|{JAVASCRIPT EXPRESSION HERE}|    
+|curly { } braces|{JAVASCRIPT EXPRESSION HERE}|    
 |EXAMPLES  |2 + 2|
 |OF|VARIABLE|
 |JS |object.propertyName|
