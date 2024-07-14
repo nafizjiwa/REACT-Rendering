@@ -88,7 +88,7 @@ To create an event listener ADD an attribute onClick, mouseOver... Here we add o
 |`<img onClick={clickAlert} />`|
     
 |Event Listener attribute’s value should be a function|
-|:----:|
+|:----|
 |function clickAlert() {|
 | alert('You clicked this image!');|
 | }|
