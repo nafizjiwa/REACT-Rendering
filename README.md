@@ -105,4 +105,4 @@ Variables can be accessed while inside of a JSX expression, even if those variab
       </h1>
     );
 
-##### If age >= drinkingAge if truthy headline = `<h1>'Buy Drink'</h1>`    falsy truthy headline = `<h1>'Do Teen Stuff'</h1>`
+##### If age >= drinkingAge is TRUTHY headline = `<h1>'Buy Drink'</h1>` or if FALSY truthy headline = `<h1>'Do Teen Stuff'</h1>`
