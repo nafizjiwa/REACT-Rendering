@@ -79,7 +79,7 @@ Variables can be accessed while inside of a JSX expression, even if those variab
         height={sideLength} 
         width={sideLength} />
     );
-
+## CONDITIONALS
 ### if and else statements
 ----
 
