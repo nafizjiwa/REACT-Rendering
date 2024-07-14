@@ -48,7 +48,7 @@
 `<br />` <br>
 ### Javascript within JSX expressions
 ----
-Any code in between the tags of a JSX element will be read as JSX, not as regular JavaScript! JSX doesn’t add numbers—it reads them as text, just like HTML. <br>
+Code in between the tags of a JSX element <h2>code here</h1> will be read as JSX, not as regular JavaScript! JSX doesn’t add numbers—it reads them as text, just like HTML. <br>
 
 You need a way to write code that says, “Even though I am located in between JSX tags, treat me like ordinary JavaScript and not like JSX.” <br>
 
