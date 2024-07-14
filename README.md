@@ -58,7 +58,15 @@ To treat code between JSX tags as JavaScript. WRAP THE CODE IN `{ }` BRACES<br>
         root.render(<h1>2 + 3</h1>)     ---------> PRINTS 2 + 3
         root.render(<h1>{2 + 3}</h1>)     ---------> PRINTS 5
         
-##### The curly braces are markers that signal the beginning and end of a JAVASCRIPT INJECTION into JSX.
+##### The curly braces are markers for the beginning and end of a JAVASCRIPT INJECTION into JSX.
+
+|In JSX ||
+|:---:|:---:|
+|{ }|{JAVASCRIPT EXPRESSION HERE}|    
+|EXAMPLES  |2 + 2|
+|OF|VARIABLE|
+|JS |object.propertyName|
+|EXPRESSION|functionName(param)|
 
 ### Variables in JSX expessions
 ----
@@ -102,6 +110,14 @@ To create an event listener ADD an attribute onClick, mouseOver... Here we add o
 | JSX XPRESSION if this condition |
 | }|
 <br>
+    if(condition) {
+         message = (
+            <h1>
+              Hey, check out this alcoholic beverage!
+            </h1>
+            );
+    }
+
 
 |SEMICOLONS (;) ARE NOT REQUIRED AFTER THE JSX EXPRESSION AS IS THE CASE IN JAVASCRIPT IF ELSE STATMENTS|
 |:--:|
